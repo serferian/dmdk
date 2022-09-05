@@ -1,0 +1,10 @@
+<SOAP-ENV:Envelope
+	xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Header/>
+	<SOAP-ENV:Body>
+		<SOAP-ENV:Fault>
+			<faultcode>SOAP-ENV:Server</faultcode>
+			<faultstring xml:lang="en">cvc-complex-type.2.3: Element 'ns1:batchList' cannot have character [children], because the type's content type is element-only.cvc-complex-type.2.4.b: The content of element 'ns1:batchList' is not complete. One of '{"urn://xsd.dmdk.goznak.ru/batch/3.0":UIN_INP}' is expected.cvc-complex-type.2.3: Element 'ns1:batchList' cannot have character [children], because the type's content type is element-only.cvc-complex-type.2.4.b: The content of element 'ns1:batchList' is not complete. One of '{"urn://xsd.dmdk.goznak.ru/batch/3.0":UIN_INP}' is expected.</faultstring>
+		</SOAP-ENV:Fault>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
